@@ -1,0 +1,22 @@
+{
+  "name": "botwhatsapp",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node src/server.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "fs": "^0.0.1-security",
+    "html-pdf": "^3.0.1",
+    "moment": "^2.29.4",
+    "nodemailer": "^6.9.1",
+    "pdf-lib": "^1.17.1",
+    "pdf2json": "^3.0.3",
+    "pdfreader": "^3.0.0",
+    "venom-bot": "^4.2.0",
+    "winston": "^3.8.2"
+  }
+}
